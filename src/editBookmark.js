@@ -51,9 +51,11 @@ const deleteBookmark = function (links, name) {
   return links;
 };
 
+const readJsonFile = jsonFile => JSON.parse(readFile(jsonFile));
+
 const main = function ({ dbPath, templatePath, htmlPagePath }, userInput) {
   const template = readFile(templatePath);
-  let links = JSON.parse(readFile(dbPath));
+  let links = readJsonFile(dbPath);
 
   const { action } = userInput;
   if (action === 'add') {

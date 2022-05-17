@@ -1,1 +1,22 @@
-[{"name":"Twitter","url":"https://www.twitter.com"},{"name":"Gmail","url":"https://www.gmail.com"},{"name":"Personal Gmail","url":"https://mail.google.com/mail/u/1/#inbox"},{"name":"MonkeyType","url":"https://monkeytype.com/"}]
+[
+  {
+    "name": "Personal Gmail",
+    "url": "https://mail.google.com/mail/u/1/#inbox"
+  },
+  {
+    "name": "MonkeyType",
+    "url": "https://monkeytype.com/"
+  },
+  {
+    "name": "RegEx",
+    "url": "https://www.regex101.com"
+  },
+  {
+    "name": "Github",
+    "url": "https://www.github.com"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://www.twitter.com"
+  }
+]
